@@ -1,30 +1,57 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
+    START_TEXT = """Yo, I am a Powefull URL Upload Bot 🤓!
 
-This is a Telegram URL Upload Bot!
+I can support Hotstar, Google Drive, and much more Links😌!
 
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+Send Me Any Direct Download URL Link, I Can Upload To Telegram As File/Video!
 
-/help for more details..
+Added Permanent Thumbnail Support💯😋!!
 
 Support Group : @HxSupport
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """It's not that complicated😅
     
-1. Send url (Link | New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
+1. Send Me A Tumbnail if required. It'll be saved permanently.💯
+
+2. If Thumbnail Wasn't Set By You, It'll Be Auto Generated From The File.🥳
+
+3. Send Me Any Link To Be Uploaded To Telegram.
+
+4. Press /deletthumbnail To Delete Your Current Custom Thumbnail
+
+5. Select the button.
    SVideo - Give File as video with Screenshots
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
 
+NB : It is Recommended To Use A Custom Thubnail Because, Some Time Wont Upload The File Without a Custom Thubnail.
+
+
 Support Group : @HxSupport
 """
 
-    FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
+
+    ABOUT_TEXT = """⭕️<b>My Name : @HxURLuploadBot</b>
+
+⭕️<b>Creater : @Kirodewal</b>
+
+⭕️<b>Language : Python3</b>
+
+⭕️<b>Library : Pyrogram 1.0.7</b>
+
+⭕️<b>Source Code : 👉 <a href='https://github.com/Kirodewal/URLuploader-With-Hotstar'>Click Here</a></b>"""
+
+
+
+    FORMAT_SELECTION = """<b>Choose appropriate option</b> <a href='{}'>⬇️</a>
+
+🎞  - Stream format
+📁  - File format
+
+<i>NOTE : Taking high resolutions may result in files above 2GB and hence cannot Upload to TG. So better select a medium resolution.</i> 😇
     
 Send your custum thumbnail if required.
 You can use /deletethumbnail to delete the auto-generated thumbnail."""
@@ -33,7 +60,9 @@ You can use /deletethumbnail to delete the auto-generated thumbnail."""
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/Kirodewal/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = """<b>👉 If You Liked Our Bots And Service Feel Free To Donate...🥰</b>
+
+  If You Want Any Private Bot Or Supscription Feel Free To Contact Me...@Kirodewal...."""
     
     DOWNLOAD_START = "Trying to download your file..."
     
